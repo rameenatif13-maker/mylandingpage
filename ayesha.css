@@ -1,0 +1,136 @@
+ body {
+     margin: 0px;
+     padding: 0px;
+     background-color: black;
+     color: white;
+ }
+
+ .left {
+     position: absolute;
+     top: 0px;
+     display: inline-block;
+
+     margin: 3px;
+ }
+
+ .left img {
+     filter: invert(100%);
+     width: 49px;
+ }
+
+ .mid {
+     display: block;
+     width: 43%;
+     margin: 0px auto;
+
+ }
+
+ .bar li {
+     display: inline-block;
+     font-size: small;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+
+ .bar li a {
+     text-decoration: none;
+     color: white;
+     margin: 20px;
+     padding: 7px;
+ }
+
+ .bar li a:hover {
+     color: rgb(108, 71, 3);
+ }
+
+ .right {
+     position: absolute;
+     right: 30px;
+     top: 10px;
+     display: inline-block;
+ }
+
+ .btn {
+     border-radius: 17px;
+     width: 68px;
+     margin: 3px;
+     padding: 6px;
+     background-color: rgb(128, 128, 128);
+     color: white;
+     font-weight: bold;
+     cursor: pointer;
+ }
+
+ .container button {
+     border-radius: 32px;
+     color: rgb(159 155 155);
+     background-color: rgb(89, 88, 88);
+     width: 9%;
+     position: absolute;
+     top: 146px;
+     left: 142px;
+ }
+
+ .container h1 {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     position: absolute;
+     top: 137px;
+     left: 142px;
+     font-size: 64px;
+ }
+
+ .container p {
+     font-size: medium;
+     position: absolute;
+     top: 246px;
+     left: 142px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     width: 27%;
+ }
+
+ .rightpic img {
+     position: absolute;
+     right: 193px;
+     top: 134px;
+     display: inline-block;
+     height: 259px;
+     width: 238px;
+     border-radius: 50%;
+     border: 5px solid white;
+ }
+
+ .cvbtn button {
+     position: absolute;
+     top: 320px;
+     left: 139px;
+     background-color: rgb(220 220 24);
+     border-radius: 15px;
+     width: 121px;
+     padding: 10px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: medium;
+     cursor: pointer;
+ }
+
+ .hirebtn button {
+     position: absolute;
+     top: 320px;
+     left: 276px;
+     background-color: rgb(0 0 0);
+     border-radius: 15px;
+     width: 121px;
+     padding: 10px;
+     color: white;
+     border: 1px solid grey;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: medium;
+     cursor: pointer;
+ }
+
+ .footline {
+     position: absolute;
+     top: 600px;
+     left: 157px;
+     color: white;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: large;
+ }
